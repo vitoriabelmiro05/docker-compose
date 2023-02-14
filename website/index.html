@@ -6,10 +6,66 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Docker</title>
+  <style>
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100%;
+      padding: 25px;
+    }
+
+    .meio {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 15px;
+
+    }
+
+    .esquerda {
+      text-align: end;
+      padding: 0 25px;
+      border-right: 3px solid black;
+      width: calc(50% - 3px);
+    }
+
+    .direita {
+      padding: 0 25px;
+      width: 50%;
+    }
+
+    .img {
+      height: 100px;
+    }
+
+    .icon {
+      height: 30px;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Olá, esse é meu primeiro projeto usando docker!</h1>
+  <header>
+    <div class="center">
+      <h1>Olá, esse é meu primeiro projeto usando docker! <a
+          href="https://www.linkedin.com/in/vitória-belmiro-97b955217/" target="_blank"> <img class="icon"
+            src="https://cdn-icons-png.flaticon.com/512/2175/2175195.png" alt=""> </a></h1>
+      <div class="meio">
+        <div class="esquerda">
+          <a href="https://hub.docker.com" target="_blank">
+            <img class="img" src="https://www.mundodocker.com.br/wp-content/uploads/2015/06/docker_facebook_share.png"
+              alt="docker">
+          </a>
+        </div>
+        <div class="direita">
+          <a href="https://hub.docker.com/_/httpd" target="_blank">
+            <img class="img" src="https://www.alura.com.br/artigos/assets/html-css-js/imagem-1.png" alt="html">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
 
 </body>
 
